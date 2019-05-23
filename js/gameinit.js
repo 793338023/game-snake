@@ -1,4 +1,6 @@
-
+/**
+ * 初始化场景界面
+ */
 function GInit(){
 	base(this,LSprite,[]);
 	var self=this;

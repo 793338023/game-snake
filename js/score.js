@@ -1,4 +1,6 @@
-
+/**
+ * 分数界面编写
+ */
 function Score(){
 	base(this,LSprite,[]);
 	var self=this;

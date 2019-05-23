@@ -1,4 +1,6 @@
-
+/**
+ * 暂停按钮界面编写
+ */
 function Pause(){
 	base(this,LSprite,[]);
 	var self=this;

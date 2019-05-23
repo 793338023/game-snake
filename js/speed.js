@@ -1,4 +1,6 @@
-
+/**
+ * 调速界面编写
+ */
 function Speed(){
 	base(this,LSprite,[]);
 	var self=this;

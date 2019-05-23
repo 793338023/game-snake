@@ -13,6 +13,9 @@ Food.prototype.product=function(){
 	self.bitmap=new LBitmap(new LBitmapData(loadList["block"],18,0,18,18));
 	self.posx=Math.floor(Math.random()*18+1);
 	self.posy=Math.floor(Math.random()*18+1);
+	/** 
+	 * 随机生成食物，但不能在贪吃蛇的位置里
+	*/
 	while(check(self.posx,self.posy)){
 		self.posx=Math.floor(Math.random()*18+1);
 		self.posy=Math.floor(Math.random()*18+1);

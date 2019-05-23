@@ -1,4 +1,6 @@
-
+/**
+ * 背景层
+ */
 function Background(){
 	var self=this;
 	base(self,LSprite,[]);

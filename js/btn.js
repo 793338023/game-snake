@@ -1,5 +1,8 @@
-
+/** 
+ * 按钮界面编写
+*/
 function Btn(){
+	// 继承基本图层
 	base(this,LSprite,[]);
 	var self=this;
 	backLayer.addChild(self);
